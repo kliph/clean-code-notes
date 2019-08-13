@@ -35,3 +35,11 @@ Ron Jeffries makes an interesting point on refactoring to extract methods: "If i
 Interesting that Martin's well-known programmers are all white men.  Might be interesting to ask a more diverse sample to share their opinions on what makes code "clean".  I don't presume that the findings would be too different, but one can't know without conducting the research.
 
 Okay, so, comparing Martin's "School of Thought" to a martial arts tradition is a total cop out.  It's not as if martial arts traditions [[https://www.ncbi.nlm.nih.gov/pubmed/31191109][haven't]] [[https://www.ncbi.nlm.nih.gov/pubmed/31240587][been]] [[https://www.ncbi.nlm.nih.gov/pubmed/31373295][rigorously]] [[https://www.ncbi.nlm.nih.gov/pubmed/31343555][studied]] [[https://www.ncbi.nlm.nih.gov/pubmed/31336837][and]] [[https://www.ncbi.nlm.nih.gov/pubmed/31282402][tested]] [[https://www.ncbi.nlm.nih.gov/pubmed/31261524][for]] [[https://www.ncbi.nlm.nih.gov/pubmed/30846917][effectiveness]] (and I couldn't resist a [[https://www.ncbi.nlm.nih.gov/pubmed/30832454][couple]] [[https://www.ncbi.nlm.nih.gov/pubmed/30694967][more]]).  Why not do the same for these ideas that, at this point, "/are/ absolutes"?
+
+#+BEGIN_QUOTE
+In the 80s and 90s we had editors like Emacs that kept track of every keystroke.
+#+END_QUOTE
+
+LOL that's *rich*!  See [[https://en.wikipedia.org/wiki/Emacs#cite_note-1][these]] [[https://en.wikipedia.org/wiki/Emacs#cite_note-jwz_timeline-2][citations]] for more information.
+* Chapter 2: Meaningful Names
+by Tim Ottinger
