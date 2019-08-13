@@ -15,3 +15,6 @@ I feel a real appeal to machismo in this book, when it tells me this is "/hard w
 I don't need a condescending tone to guilt-trip me into accepting what you say.  If it's sensible, show me how to do it and I will.  If it's measurable, demonstrate its effectiveness.
 
 Finally, the WTFs per minute cartoon is great :D.
+* Chapter 1: Clean Code
+#+caption: There Will Be +Code+ Blood
+[[https://media.giphy.com/media/tt3eTxBT0cgtW/giphy.gif]]
