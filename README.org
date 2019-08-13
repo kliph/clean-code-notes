@@ -28,7 +28,7 @@ For what it's worth, I agree with Booch that clean code should read like prose.
 
 In the next section (covering "Big" Dave Thomas), Martin asserts that "[t]here is, after all, a difference between code that is easy to read and code that is easy to change."  I see no evidence to support this dichotomy.  It certainly seems possible that readability and changeability are polar opposites, but it also seems possible that many overlapping factors contribute to what we (assuming we both hold similar referents) term readability and changeability.  We can't just take these assumptions for granted /a priori/.  We must investigate and interrogate these assumptions to learn whether they can tell us any meaningful information about the world.
 
-Martin also points out that Thomas mentions twice that smaller code is better.  This brings to mind the some of the work in [[the ][Adam Tornhill's /Your Code as a Crime Scene/]].  I should revisit that when I can find the time.  It would seem that there is an argument to be made in favor of smaller code bases given constant rates of errors (bugs).
+Martin also points out that Thomas mentions twice that smaller code is better.  This brings to mind the some of the work in Adam Tornhill's /[[https://pragprog.com/book/atcrime/your-code-as-a-crime-scene][Your Code as a Crime Scene]]/.  I should revisit that when I can find the time.  It would seem that there is an argument to be made in favor of smaller code bases given constant rates of errors (bugs).
 
 Ron Jeffries makes an interesting point on refactoring to extract methods: "If it's a method, [refactor it], resulting in one method that says more clearly *what* it does, and some submethods saying *how* it is done." Bold indicates my emphasis.
 
