@@ -62,4 +62,6 @@ In a footnote, Ottinger mentions using =klass= because =class= was used elsewher
   var that = this;
 #+END_SRC
 
-Yuck.
+I can certainly see why it would be necessary.  But still.  Yuck.
+
+[[https://media.giphy.com/media/ZF32u4EqI0AHqUQucs/giphy.gif]]
