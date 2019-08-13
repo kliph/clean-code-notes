@@ -10,7 +10,7 @@ Ah yes, anecdotal evidence.  You'll have to work "/hard/"to learn this stuff.  H
 
 But really though, case studies and these sorts of heuristics seem great.  Sensible approaches to writing software are great.  Surely if these sensible approaches are so profoundly useful there should be a way to measure their usefulness.
 
-I feel a real appeal to machismo in this book, when it tells me this is "/hard work/" in contrast to a "feel good" book you can read on a plane.  I feel the appeal to machismo when it mentions that you'll gain a rich understanding of "principles, patterns, practices, and heuristics ... in your gut, fingers, and heart."  I could do without it.
+I feel a real appeal to machismo and toxic masculinity in this book, when it tells me this is "/hard work/" in contrast to a "feel good" book you can read on a plane.  I feel the appeal to machismo and toxic masculinity when it mentions that you'll gain a rich understanding of "principles, patterns, practices, and heuristics ... in your gut, fingers, and heart."  I could do without it.
 
 I don't need a condescending tone to guilt-trip me into accepting what you say.  If it's sensible, show me how to do it and I will.  If it's measurable, demonstrate its effectiveness.
 
@@ -18,3 +18,20 @@ Finally, the WTFs per minute cartoon is great :D.
 * Chapter 1: Clean Code
 #+caption: There Will Be +Code+ Blood
 [[https://media.giphy.com/media/tt3eTxBT0cgtW/giphy.gif]]
+
+The doctors hand-washing anecdote argues in favor of strong validation via evidence.  It does not suggest that doctors have the prestige and privilege to buck the system, going against what their managers say in order to do what's best for their bosses (patients).
+
+Grady Booch mentions that code should be readable.  I'm interested in that concept, specifically because I reckon that two programmers could have wildly different subjective definitions for what makes a certain bit of code readable.  I wonder whether there is any research determining the parameters that feed into this concept of readability.  This [[https://faculty.washington.edu/ajko/books/cooperative-software-development/comprehension.html][chapter from Andrew J. Ko]]
+ seems like a good resource.
+
+For what it's worth, I agree with Booch that clean code should read like prose.
+
+In the next section (covering "Big" Dave Thomas), Martin asserts that "[t]here is, after all, a difference between code that is easy to read and code that is easy to change."  I see no evidence to support this dichotomy.  It certainly seems possible that readability and changeability are polar opposites, but it also seems possible that many overlapping factors contribute to what we (assuming we both hold similar referents) term readability and changeability.  We can't just take these assumptions for granted /a priori/.  We must investigate and interrogate these assumptions to learn whether they can tell us any meaningful information about the world.
+
+Martin also points out that Thomas mentions twice that smaller code is better.  This brings to mind the some of the work in [[the ][Adam Tornhill's /Your Code as a Crime Scene/]].  I should revisit that when I can find the time.  It would seem that there is an argument to be made in favor of smaller code bases given constant rates of errors (bugs).
+
+Ron Jeffries makes an interesting point on refactoring to extract methods: "If it's a method, [refactor it], resulting in one method that says more clearly *what* it does, and some submethods saying *how* it is done." Bold indicates my emphasis.
+
+Interesting that Martin's well-known programmers are all white men.  Might be interesting to ask a more diverse sample to share their opinions on what makes code "clean".  I don't presume that the findings would be too different, but one can't know without conducting the research.
+
+Okay, so, comparing Martin's "School of Thought" to a martial arts tradition is a total cop out.  It's not as if martial arts traditions [[https://www.ncbi.nlm.nih.gov/pubmed/31191109][haven't]] [[https://www.ncbi.nlm.nih.gov/pubmed/31240587][been]] [[https://www.ncbi.nlm.nih.gov/pubmed/31373295][rigorously]] [[https://www.ncbi.nlm.nih.gov/pubmed/31343555][studied]] [[https://www.ncbi.nlm.nih.gov/pubmed/31336837][and]] [[https://www.ncbi.nlm.nih.gov/pubmed/31282402][tested]] [[https://www.ncbi.nlm.nih.gov/pubmed/31261524][for]] [[https://www.ncbi.nlm.nih.gov/pubmed/30846917][effectiveness]] (and I couldn't resist a [[https://www.ncbi.nlm.nih.gov/pubmed/30832454][couple]] [[https://www.ncbi.nlm.nih.gov/pubmed/30694967][more]]).  Why not do the same for these ideas that, at this point, "/are/ absolutes"?
