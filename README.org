@@ -1,1 +1,17 @@
 * Notes on Clean Code
+By Robert C. Martin
+* Foreword
+By James O. Coplien
+
+Sensible, but offers 0 evidence.  Retreads the tired ground of appealing to Eastern mysticism to back up the sensible advice.
+* Introduction
+
+Ah yes, anecdotal evidence.  You'll have to work "/hard/"to learn this stuff.  Hopefully there will be some evidence to back these heuristics up.  Maybe?
+
+But really though, case studies and these sorts of heuristics seem great.  Sensible approaches to writing software are great.  Surely if these sensible approaches are so profoundly useful there should be a way to measure their usefulness.
+
+I feel a real appeal to machismo in this book, when it tells me this is "/hard work/" in contrast to a "feel good" book you can read on a plane.  I feel the appeal to machismo when it mentions that you'll gain a rich understanding of "principles, patterns, practices, and heuristics ... in your gut, fingers, and heart."  I could do without it.
+
+I don't need a condescending tone to guilt-trip me into accepting what you say.  If it's sensible, show me how to do it and I will.  If it's measurable, demonstrate its effectiveness.
+
+Finally, the WTFs per minute cartoon is great :D.
