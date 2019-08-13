@@ -65,3 +65,18 @@ In a footnote, Ottinger mentions using =klass= because =class= was used elsewher
 I can certainly see why it would be necessary.  But still.  Yuck.
 
 [[https://media.giphy.com/media/ZF32u4EqI0AHqUQucs/giphy.gif]]
+
+"/The length of a name should correspond to the size of its scope./"  This is a nice heuristic and one I use myself.  Here's a hypothesis.  Seems like testing comprehension by varying name length by objective scope would be a relatively straightforward experiment.  Conditions could be "long names" for large scope / "short names" for small scope, "short names" for large scope / "long names" for small scope, random length names for all scopes, etc.
+
+Not sure I buy the argument regarding Interfaces and Implementations.  Those seem to be cases where you have a meaningful distinction between multiple bits of code dealing with the same referent.  Ottinger seems to think it is necessary to use encodings for these cases, but using =I= as a prefix is "a distraction at best and too much information at worst."  =AbstractFoo=, =IFoo=, and =FooImpl= all make sense to me.
+
+I'm totally here for picking one word per concept.  That's a practice I use all the time.
+
+[[https://media.giphy.com/media/NEvPzZ8bd1V4Y/giphy.gif]]
+
+Regarding the assumption that everyone who reads your code will be programmers, I say, "Uhhhh, not so sure that's always the case, but granted."  When Ottinger recommends using "computer science ... terms, algorithm names, pattern names, path terms and so forth."  I [[https://twitter.com/elementsofclj/status/1074710832938971136][disagree]].
+
+It's incumbent on the author to define the terms for the reader.  I have often accomplished this by including a Glossary defining terms of art in a project.  This goes for domain-specific terms as well as general purpose terms which may or may not be used in novel ways to solve the problem at hand.
+
+[[https://media.giphy.com/media/P5wPrhzZDdeJW/giphy.gif]]
+* Chapter 3: Functions
