@@ -110,3 +110,11 @@ The approach Martin is advocating for here seems to fall squarely in the splitte
 [[https://media.giphy.com/media/PcfozPlZSzARO/giphy.gif]]
 
 Also let me get in a jab that =SetupTeardownIncluder.java= is not a super descriptive name!  Maybe it's useful in context.
+
+I'm reminded of inheriting some code responsible for plotting some data.  It had been factored down to such small functions that it was hard to follow what it was doing at all.  Each function did one thing, and the sum of those functions did generate the plots as intended.  But figuring out how to extend the functionality was extremely difficult due to the distribution of level of abstraction across all of these functions.  In my opinion an easier way to read that code was that a single function was responsible for generating a single graph and may call out to multiple DRYed out helper functions that could live at lower levels of abstraction.  I refactored it to allow that organization and I felt that that made the code more extensible.
+
+Most of the recommendations in this chapter strike me as testable hypotheses rather than unassailable imperatives to be ignored at your own peril.  That being said, they seem sensible enough rules of thumb to follow.
+
+Also, I see function arguments as an area where "modern IDEs", what I call tooling, can help.
+
+* Chapter 4: Comments
