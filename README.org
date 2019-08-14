@@ -144,3 +144,11 @@ I just don't get why clean comments aren't important.  Martin's thesis seems to 
 [[https://media.giphy.com/media/VeB9ieebylsaN5Jw8p/giphy.gif]]
 
 How is that productive?
+* Chapter 5: Formatting
+[[https://media.giphy.com/media/SF4aJKqEchIiY/giphy.gif]]
+
+Set rules and automate their enforcement.
+
+* Chapter 6: Objects and Data Structures
+
+[[https://media.giphy.com/media/Ws9uuyPnZhUOSR8tjx/giphy.gif]]
