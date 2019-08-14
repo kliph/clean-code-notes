@@ -127,10 +127,20 @@ WTF is up with associating women with comments, you know the thing you're not su
 
 [[https://media.giphy.com/media/QjIz1AqkGTszK/giphy.gif]]
 
-WTF is up with associating a woman with motherhood?
+WTF is up with associating +a woman+ women (just got to the scolding mother in this chapter) with motherhood?
 
 [[https://media.giphy.com/media/3ohzdOKC7b6VbCPGQo/giphy.gif]]
 
 WTF is up with not asking any women about their definitions of clean code?
 
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg/1536px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg]]
+
+Martin seems to be crying out for [[https://en.m.wikipedia.org/wiki/Literate_programming][literate programming]] to help keep comments current, by which I mean code-driven (and, in homoiconic languages, therefore, data-driven).
+
+The failure to keep comments current and accurate is not a given.  Surely, just as clean code requires gumption on the part of the author, comments require gumption on the part of the author to maintain their accuracy and integrity.  Why then, on the subject of comments, is Martin comfortable with throwing in the towel?
+
+I just don't get why clean comments aren't important.  Martin's thesis seems to be: All comments are bad except for a few, and you should feel bad if you write them.  What?
+
+[[https://media.giphy.com/media/VeB9ieebylsaN5Jw8p/giphy.gif]]
+
+How is that productive?
