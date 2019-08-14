@@ -22,7 +22,9 @@ It would seem that Martin and company are attempting to do deductive reasoning f
 
 They readily admit that other people may disagree with the claims that they treat as axiomatic.
 
-I disagree in principle that there is any basis to reason axiomatically (that is, deductively) in the field of software development.  Even the assumption that computers are governed by the mathematics more than physics, barring all outside factors clearly being governed by empirical reality, falls apart with a modicum of scrutiny.  Processors in our machines are bound by the laws of physics.  Our software runs on the hard drives, RAM, and CPUs in these machines.  Humans write the software for, as Martin asserts, the intended audience of humans.  I posit that software development is governed by the rules of physics and psychology, and that we would do well to consider the empirical study of these fields when trying to determine Truths about software development.
+I disagree in principle that there is any basis to reason axiomatically (that is, deductively) in the field of software development.  Even the assumption that computers are governed by the mathematics more than physics, barring all outside factors clearly being governed by empirical reality, falls apart with a modicum of scrutiny.  Processors in our machines are bound by the laws of physics.  Our software runs on the hard drives, RAM, and CPUs in these machines.  Humans write the software for, as Martin asserts, the intended audience of humans.
+
+I posit that software development is governed by the rules of physics and psychology, and that we would do well to consider the empirical study of these fields when trying to determine Truths about software development.
 
 The [[https://en.wikipedia.org/wiki/Scientific_method#Relationship_with_mathematics][scientific method]] serves as a means to test the validity of so called "axioms" that I believe would be better termed "folk psychology."  I find myself firmly in the [[https://en.wikipedia.org/wiki/Eliminative_materialism][school of thought espoused by Patty Churchland and others]] that seeks to question the basis for these "axioms," or common-sense understandings if you will, in order to determine the True nature of reality to the best of our abilities.
 
@@ -77,7 +79,9 @@ I can certainly see why it would be necessary.  But still.  Yuck.
 
 [[https://media.giphy.com/media/ZF32u4EqI0AHqUQucs/giphy.gif]]
 
-"/The length of a name should correspond to the size of its scope./"  This is a nice heuristic and one I use myself.  Here's a hypothesis.  Seems like testing comprehension by varying name length by objective scope would be a relatively straightforward experiment.  Conditions could be "long names" for large scope / "short names" for small scope, "short names" for large scope / "long names" for small scope, random length names for all scopes, etc.
+"/The length of a name should correspond to the size of its scope./"  This is a nice heuristic and one I use myself.
+
+Here's a hypothesis.  Seems like testing comprehension by varying name length by objective scope would be a relatively straightforward experiment.  Conditions could be "long names" for large scope / "short names" for small scope, "short names" for large scope / "long names" for small scope, random length names for all scopes, etc.
 
 Not sure I buy the argument regarding Interfaces and Implementations.  Those seem to be cases where you have a meaningful distinction between multiple bits of code dealing with the same referent.  Ottinger seems to think it is necessary to use encodings for these cases, but using =I= as a prefix is "a distraction at best and too much information at worst."  =AbstractFoo=, =IFoo=, and =FooImpl= all make sense to me.
 
