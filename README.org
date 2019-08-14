@@ -97,7 +97,7 @@ It's incumbent on the author to define the terms for the reader.  I have often a
 * Chapter 3: Functions
 Keep 'em tiny.
 
-https://media.giphy.com/media/cOVtfbB28ejn0lk3sq/giphy.gif
+[[https://media.giphy.com/media/cOVtfbB28ejn0lk3sq/giphy.gif]]
 
 There's a nice principle here that a function is doing one and only one thing if and only if you can no longer meaningfully refactor it into a function that is not merely a restatement of its implementation.  But who is to say that you and I agree on what meaningful refactoring are?  It would be helpful if there were some more objective way to define this.
 
@@ -107,6 +107,6 @@ I'm reminded of [[https://neuro.wisc.edu/staff/jones-mathew-2/][Matt Jones]] tea
 
 The approach Martin is advocating for here seems to fall squarely in the splitter category.  I remain unconvinced, though, that the humans who are doing the programming can easily handle (today and two weeks from now) a class with, by my count, 5 pieces of internal state, 2 public methods, and 16 private methods.  I grant, as Martin mentions, that tooling can help with this.  Indeed I leverage tooling to help with my poor recall all the time.  However, I would argue that the tradeoffs associated with breaking a single method into 23 things becomes a question of [[https://en.m.wikipedia.org/wiki/Memory_span][human memory span]], rather than platonic elegance.
 
-https://media.giphy.com/media/PcfozPlZSzARO/giphy.gif
+[[https://media.giphy.com/media/PcfozPlZSzARO/giphy.gif]]
 
 Also let me get in a jab that =SetupTeardownIncluder.java= is not a super descriptive name!  Maybe it's useful in context.
