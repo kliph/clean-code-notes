@@ -152,3 +152,12 @@ Set rules and automate their enforcement.
 * Chapter 6: Objects and Data Structures
 
 [[https://media.giphy.com/media/Ws9uuyPnZhUOSR8tjx/giphy.gif]]
+
+The recommendations for abstraction are good, but they aren't the only way to work around these problems of leaky scope and coupling.
+
+[[https://media.giphy.com/media/rEMU7AjqjvMLC/giphy.gif]]
+
+For example, have a gander at this Rich Hickey [[https://www.youtube.com/watch?v=YR5WdGrpoug][talk]] ([[https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/MaybeNot.md][transcript here]]).
+
+* Chapter 7: Error Handling
+By Michael Feathers
