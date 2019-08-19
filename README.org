@@ -157,7 +157,45 @@ The recommendations for abstraction are good, but they aren't the only way to wo
 
 [[https://media.giphy.com/media/rEMU7AjqjvMLC/giphy.gif]]
 
-For example, have a gander at this Rich Hickey [[https://www.youtube.com/watch?v=YR5WdGrpoug][talk]] ([[https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/MaybeNot.md][transcript here]]).
+For example, have a gander at this Rich Hickey [[https://www.youtube.com/watch?v=YR5WdGrpoug][talk]] ([[https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/MaybeNot.md][transcript here]]).  Some useful information here: https://github.com/clojure/spec-alpha2/wiki/Schema-and-select.  Boils down to separating requiring an attribute (for a function to operate on) from the requirements of an attribute (for a aggregate of valid data).
 
 * Chapter 7: Error Handling
 By Michael Feathers
+
+This is the author of /[[https://www.oreilly.com/library/view/working-effectively-with/0131177052/][Working Effectively with Legacy Code]]/.  I plan to read that next.
+
+* Chapter 8: Boundaries
+By James Grenning
+
+Good advice about wrapping, and code that should probably live in the Service layer.  Unsurprisingly inappropriate cartoon smh.
+
+"Learning Tests Are Better Than Free" is a good one.  I'll have to use that.
+
+* Chapter 9: Unit Tests
+FIRST acronym
+
+Tests should be:
+
+- Fast
+- Independent
+- Repeatable
+- Self-validating
+  - You shouldn't need to read through the logs to verify that a test passes.
+- Timely
+
+* Chapter 10: Classes
+With Jeff Langr
+
+Sweet!  A woman can read the Federalist Papers.  Finally a reasonable portrayal in one of these illustrations.
+
+Totally agree that linting class variable, method, etc. organization is probably a good idea.
+
+I noticed an interesting issue with Single Responsibility Principle (SRP).  Here's the argument:
+
+#+BEGIN_QUOTE
+...[A] system with many small classes has no more moving parts than a system with a few large classes.
+#+END_QUOTE
+
+This argument seems to fail to account for levels of abstraction.  At each level of abstraction, in my opinion, the number of classes should be smaller than the human programmer's memory span.  This makes a nice hypothesis that could be tested straightforward in an undergraduate academic programming assignment.
+
+Furthermore, the claim above that a system with small classes is just as comprehensible as a system with large classes is a hypothesis and should be similarly tested.
