@@ -199,3 +199,15 @@ I noticed an interesting issue with Single Responsibility Principle (SRP).  Here
 This argument seems to fail to account for levels of abstraction.  At each level of abstraction, in my opinion, the number of classes should be smaller than the human programmer's memory span.  This makes a nice hypothesis that could be tested straightforward in an undergraduate academic programming assignment.
 
 Furthermore, the claim above that a system with small classes is just as comprehensible as a system with large classes is a hypothesis and should be similarly tested.
+
+* Chapter 11: Systems
+By Dr. Kevin Dean Wampler
+
+The note about avoiding convenient idioms because they percolate into a codebase is good advice.  It should also be easily analyzed and characterized from version control history.
+
+[[https://dl.acm.org/citation.cfm?id=542553][Software Physics by Kolence]] looks interesting.  Also interesting that Wampler points out psychological resistance to discarding prior effort, or the [[https://en.wikipedia.org/wiki/Sunk_cost#The_sunk_cost_effect][sunk cost fallacy]].
+
+Feels like Wampler is describing the sorts of thing https://github.com/tolitius/mount =component= do more or less.
+
+* Chapter 12: Emergence
+By Jeff Langr
