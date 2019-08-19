@@ -222,3 +222,16 @@ Nice to see a recommendation to experiment and not treat the advice here as dogm
 Guidelines on testing threaded code seem helpful.
 
 * Chapter 14: Successive Refinement
+Not sure where this came up in the earlier text, but Martin's insistence on wrapping setters and getters to abstract away implementation detail works great for simple value types like =Int= or =Double=, but seems to open up refactoring problems when you don't fully understand the types of the values in your system and need to change from =Thing= to =Item= or whatever.
+
+That being said, the approach of wrapping setters and getters means that you can take a code-driven approach to refactoring and let your tooling handle the work.  You'll never have one-off instances where you think you're getting the same value but the way you get it is slightly different so it breaks after refactoring.
+
+This footnote seems to gloss over the whole point of the book:
+
+#+BEGIN_QUOTE
+I recently rewrote this module in Ruby.  It was 1/7th the size and had a subtly better structure.
+#+END_QUOTE
+
+In what way was the structure "subtly better"?  Wouldn't that distinction be important to communicate to the readers of the book whom you are trying to educate about the heuristics for best writing good code?
+
+[[https://media.giphy.com/media/KZk7iygO3kuRNnTSAL/giphy.gif]]
