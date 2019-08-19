@@ -211,3 +211,14 @@ Feels like Wampler is describing the sorts of thing https://github.com/tolitius/
 
 * Chapter 12: Emergence
 By Jeff Langr
+
+Really not getting anything new here.
+
+* Chapter 13: Concurrency
+By Brett L. Schuchert
+
+Nice to see a recommendation to experiment and not treat the advice here as dogma.
+
+Guidelines on testing threaded code seem helpful.
+
+* Chapter 14: Successive Refinement
