@@ -235,3 +235,11 @@ I recently rewrote this module in Ruby.  It was 1/7th the size and had a subtly 
 In what way was the structure "subtly better"?  Wouldn't that distinction be important to communicate to the readers of the book whom you are trying to educate about the heuristics for best writing good code?
 
 [[https://media.giphy.com/media/KZk7iygO3kuRNnTSAL/giphy.gif]]
+
+* Chapter 15: JUnit Internals
+
+Saying that no module is free from improvement seems to be self-fulfilling prophecy that gets us into a vicious loop where there will always be code, and that code will need to be improved to meet some ill-defined, subjective standard.  Cleanliness is then in the eye of the beholder.  Give 100 developers your code in series and you'll get 100 so-called improvements to that code.  You will pay the developers for their time 100-times over.  I anticipate that you will see diminishing returns in quality and even regressions (not in the sense of failing tests).
+
+I'm taking a pretty pessimistic view here, but these arguments based on subjective definitions of what's good simply can't stand.  There has to be some objective ideal that you are improving toward or else you're just doing busy-work.
+
+* Chapter 16: Refactoring =SerialDate=
