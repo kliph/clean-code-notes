@@ -243,3 +243,6 @@ Saying that no module is free from improvement seems to be self-fulfilling proph
 I'm taking a pretty pessimistic view here, but these arguments based on subjective definitions of what's good simply can't stand.  There has to be some objective ideal that you are improving toward or else you're just doing busy-work.
 
 * Chapter 16: Refactoring =SerialDate=
+Agreed that critique is good and should not be taken personally.  This document is intended to be this sort of critique.
+
+* Chapter 17: Smells and Heuristics
