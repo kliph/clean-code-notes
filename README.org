@@ -219,7 +219,7 @@ The note about avoiding convenient idioms because they percolate into a codebase
 
 [[https://dl.acm.org/citation.cfm?id=542553][Software Physics by Kolence]] looks interesting.  Also interesting that Wampler points out psychological resistance to discarding prior effort, or the [[https://en.wikipedia.org/wiki/Sunk_cost#The_sunk_cost_effect][sunk cost fallacy]].
 
-Feels like Wampler is describing the sorts of thing https://github.com/tolitius/mount =component= do more or less.
+Feels like Wampler is describing the sorts of thing [[https://github.com/tolitius/mount][Mount]] and =component= do more or less.  Sounds like [[https://github.com/weavejester/integrant][Integrant]] is a similar library that I was not aware of.
 
 * Chapter 12: Emergence
 By Jeff Langr
