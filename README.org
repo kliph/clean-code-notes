@@ -258,6 +258,8 @@ I'm taking a pretty pessimistic view here, but these arguments based on subjecti
 
 * Chapter 16: Refactoring =SerialDate=
 
+** A note on critique
+
 *Agreed that critique is good and should not be taken personally.  This document is intended to be this sort of critique.*
 
 * Chapter 17: Smells and Heuristics
