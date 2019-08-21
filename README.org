@@ -246,3 +246,22 @@ I'm taking a pretty pessimistic view here, but these arguments based on subjecti
 Agreed that critique is good and should not be taken personally.  This document is intended to be this sort of critique.
 
 * Chapter 17: Smells and Heuristics
+
+I'm going to highlight the ones I want to reference.
+
+** Comments
+- Obsolete comment :: Get rid of it or update it so that it's accurate.  It's incumbent on the folks writing and reviewing the code to ensure that comments are accurate.
+
+** Environments
+You should be able to build the code in a single step.
+
+Similarly you should be able to test the code in a single step.
+
+Hmm sounds pretty similar to [[https://github.com/github/scripts-to-rule-them-all][Scripts to Rule Them All]].
+
+** General
+- Functions should descend only one level of abstraction
+
+** Names
+- Choose names at the appropriate level of abstraction
+  - Instead of =dial= choose =connect= for a phone dialing system to keep it agnostic about the underlying data format (i.e. Phone Numbers instead of some other method for locating users to =connect=)
