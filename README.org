@@ -157,7 +157,7 @@ The recommendations for abstraction are good, but they aren't the only way to wo
 
 [[https://media.giphy.com/media/rEMU7AjqjvMLC/giphy.gif]]
 
-For example, have a gander at this Rich Hickey [[https://www.youtube.com/watch?v=YR5WdGrpoug][talk]] ([[https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/MaybeNot.md][transcript here]]).  Some useful information here: https://github.com/clojure/spec-alpha2/wiki/Schema-and-select.  Boils down to separating requiring an attribute (for a function to operate on) from the requirements of an attribute (for a aggregate of valid data).
+For example, have a gander at this Rich Hickey [[https://www.youtube.com/watch?v=YR5WdGrpoug][talk]] ([[https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/MaybeNot.md][transcript here]]).  Some useful information here: https://github.com/clojure/spec-alpha2/wiki/Schema-and-select.  Boils down to separating requiring an attribute (for a function to operate on) from the requirements of an attribute (for an aggregate of valid data).
 
 * Chapter 7: Error Handling
 By Michael Feathers
