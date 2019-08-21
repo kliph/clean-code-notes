@@ -200,6 +200,18 @@ This argument seems to fail to account for levels of abstraction.  At each level
 
 Furthermore, the claim above that a system with small classes is just as comprehensible as a system with large classes is a hypothesis and should be similarly tested.
 
+According to the index, SOLID only appears in this chapter.  I can't find any mention of it in the text.
+
+[[https://media.giphy.com/media/l2YWupKFW0WnTeoco/giphy.gif]]
+
+
+Anyway here's the lowdown on SOLID:
+
+- S :: Classes should have a single responsibility
+- O :: Classes should be open, meaning extensible, and closed over the state they contain so that it cannot be mutated
+- L :: Liskov substitution which means that subclasses should return similar types, this is where the "substitution" comes in, to their parent classes.
+- I :: Part of keeping classes open is that they should only implement the interfaces required for their functionality.
+- D :: Use dependency inversions by writing classes that depend on abstractions not concrete implementations.
 * Chapter 11: Systems
 By Dr. Kevin Dean Wampler
 
